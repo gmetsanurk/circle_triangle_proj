@@ -14,6 +14,7 @@
 		66AF82942B83C2CD00DBFED5 /* MathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AF82932B83C2CD00DBFED5 /* MathTests.swift */; };
 		66AF829E2B83C2CD00DBFED5 /* MathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AF829D2B83C2CD00DBFED5 /* MathUITests.swift */; };
 		66AF82A02B83C2CD00DBFED5 /* MathUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AF829F2B83C2CD00DBFED5 /* MathUITestsLaunchTests.swift */; };
+		66AF82AD2B83C2ED00DBFED5 /* MathObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AF82AC2B83C2ED00DBFED5 /* MathObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		66AF82992B83C2CD00DBFED5 /* MathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66AF829D2B83C2CD00DBFED5 /* MathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUITests.swift; sourceTree = "<group>"; };
 		66AF829F2B83C2CD00DBFED5 /* MathUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66AF82AC2B83C2ED00DBFED5 /* MathObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +76,8 @@
 		66AF82762B83C2CB00DBFED5 = {
 			isa = PBXGroup;
 			children = (
-				66AF82812B83C2CB00DBFED5 /* Math */,
 				66AF82922B83C2CD00DBFED5 /* MathTests */,
+				66AF82812B83C2CB00DBFED5 /* Math */,
 				66AF829C2B83C2CD00DBFED5 /* MathUITests */,
 				66AF82802B83C2CB00DBFED5 /* Products */,
 			);
@@ -94,9 +96,10 @@
 		66AF82812B83C2CB00DBFED5 /* Math */ = {
 			isa = PBXGroup;
 			children = (
+				66AF82AC2B83C2ED00DBFED5 /* MathObject.swift */,
 				66AF82822B83C2CB00DBFED5 /* MathApp.swift */,
 				66AF82842B83C2CB00DBFED5 /* ContentView.swift */,
-				66AF82862B83C2CC00DBFED5 /* Assets.xcassets */,
+				66AF82AE2B83CA9E00DBFED5 /* Assets */,
 				66AF82882B83C2CC00DBFED5 /* Preview Content */,
 			);
 			path = Math;
@@ -125,6 +128,14 @@
 				66AF829F2B83C2CD00DBFED5 /* MathUITestsLaunchTests.swift */,
 			);
 			path = MathUITests;
+			sourceTree = "<group>";
+		};
+		66AF82AE2B83CA9E00DBFED5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				66AF82862B83C2CC00DBFED5 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66AF82852B83C2CB00DBFED5 /* ContentView.swift in Sources */,
+				66AF82AD2B83C2ED00DBFED5 /* MathObject.swift in Sources */,
 				66AF82832B83C2CB00DBFED5 /* MathApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
